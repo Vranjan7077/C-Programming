@@ -49,6 +49,7 @@ int main()
  draw_logic_gates( x, y, z );
 
  getch();
+ closegraph();
  return 0;
 }
 
