@@ -82,6 +82,10 @@ void draw_logic_gates( int x, int y, int z )
 /* ############## Start of AND gate ############ */
 
  setcolor( RED );
+ 
+ line( 1, 70, 100, 70 );  // input line 1 for AND gate
+ line( 20, 80, 100, 80 );  // input line 2 for AND gate
+ line( 40, 90, 100, 90 );  // input line 3 for AND gate
 			   // how to print integer variable at runtime
  sprintf( outx, "%d", x );  //plz refer https://in.answers.yahoo.com/question/index?qid=20110126060415AAaydU5
  outtextxy( 50, 62, outx );
@@ -92,9 +96,7 @@ void draw_logic_gates( int x, int y, int z )
  sprintf( outz, "%d", z );
  outtextxy( 80, 82, outz );
 
- line( 1, 70, 100, 70 );  // input line 1 for AND gate
- line( 20, 80, 100, 80 );  // input line 2 for AND gate
- line( 40, 90, 100, 90 );  // input line 3 for AND gate
+ 
 
 
  line( 100, 60, 100, 100 ); // verticle line of AND gate
